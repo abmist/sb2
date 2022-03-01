@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "sb2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -76,5 +76,10 @@
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1"
-  }
+  },
+  "description": "learning",
+  "main": "dist/index.js",
+  "repository": "https://github.com/abmist/sb2.git",
+  "author": "mysterious.tester@gmail.com",
+  "license": "MIT"
 }
