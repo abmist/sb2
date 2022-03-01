@@ -1,7 +1,15 @@
-import { createGlobalStyle, css } from 'styled-components';
-import { color, typography } from './styles';
+import { createGlobalStyle, css } from "styled-components";
+import { color, typography } from "./styles";
+import { tokens } from "./tokens";
+import { shared } from "./shared";
+
+export const fontUrl =
+  "https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900";
 
 export const bodyStyles = css`
+  ${tokens}
+  ${shared}
+
   font-family: ${typography.type.primary};
   font-size: ${typography.size.s3}px;
   color: ${color.darkest};

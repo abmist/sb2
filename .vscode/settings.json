@@ -12,5 +12,7 @@
     "titleBar.inactiveBackground": "#ca959399",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#ca9593"
+  "peacock.color": "#ca9593",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
